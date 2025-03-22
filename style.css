@@ -106,7 +106,7 @@
     text-transform: uppercase;
     margin-bottom: 48px;
 }
-/* .newsticker-container{
-    border: 1px solid red;
-} */
+.newsticker-container{
+    border: 3px dashed rgba(158, 146, 146, 0.3);
+}
 /* category section code end  */
