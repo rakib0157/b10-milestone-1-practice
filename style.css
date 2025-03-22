@@ -17,7 +17,6 @@
 .main-container {
     max-width: 1320px;
     margin: 0 auto;
-    height: 1200px;
 }
 
 /* common css code end  */
@@ -36,11 +35,14 @@
     gap: 16px;
 
 }
-.header-h1, .header-h2{
+
+.header-h1,
+.header-h2 {
     text-align: center;
-    font-family: Merriweather;
-    
+    font-family: "Merriweather", serif;
+
 }
+
 .header-h2 {
     color: #ffffff;
     font-size: 32px;
@@ -50,7 +52,7 @@
 }
 
 .header-h1 {
-    color:#ffffff;
+    color: #ffffff;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -58,3 +60,53 @@
 }
 
 /* header code end  */
+/* category section code start  */
+/* #category{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;} */
+
+.holidya-offer-section-container {
+    /* position: absolute; */
+    width: 802.9px;
+    height: 806px;
+    margin: 120px auto;
+}
+
+.big-offer {
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holiday-deals {
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 48px 0px 16px 0px;
+    text-transform: uppercase;
+}
+
+.categori-title {
+    color: rgb(7, 2, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+/* .newsticker-container{
+    border: 1px solid red;
+} */
+/* category section code end  */
