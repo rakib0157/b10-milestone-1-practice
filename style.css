@@ -223,7 +223,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 
 }
 
@@ -261,6 +261,7 @@
     letter-spacing: 0%;
     text-align: left;
 }
+
 /* .center-cms-contetn-container{
     border: 1px solid red;
 } */
@@ -278,9 +279,11 @@
 .cms-center-img-container>img {
     border: 3px dashed rgba(158, 146, 146, 0.3);
 }
-.right-cms-contetn-container{
+
+.right-cms-contetn-container {
     width: 276px;
 }
+
 .cms-year {
     color: rgb(255, 0, 0);
     font-family: Inter;
@@ -299,7 +302,56 @@
     letter-spacing: 0%;
     margin-bottom: 40px;
 }
-.cms-right-img{
+
+.cms-right-img {
     border: 3px dashed rgba(158, 146, 146, 0.3);
 }
+
 /* cms section code end  */
+
+/* holiday poster section start  */
+#holiday-poster-section {
+    width: 1066px;
+    height: 260px;
+    border: 1px solid red;
+    margin-top: 120px;
+    margin: 120px auto 64px auto;
+}
+
+.what-is-func {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
+.holiday-sell-percent {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.holiday-sell-percent>span {
+    color: rgb(255, 0, 0);
+}
+
+.holiday-sell-poster-p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* holiday poster section end  */
