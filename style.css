@@ -313,7 +313,6 @@
 #holiday-poster-section {
     width: 1066px;
     height: 260px;
-    border: 1px solid red;
     margin-top: 120px;
     margin: 120px auto 64px auto;
 }
@@ -355,3 +354,32 @@
 }
 
 /* holiday poster section end  */
+
+/* mistrybox section start  */
+#mistrybox{
+    width: 100%;
+    height: 662px;
+    background-image: url('./images/rectangle.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 220px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.mystribox-left-img{
+    width: 674px;
+    height: 577px;
+}
+.mystribox-left-img > img{
+    width: 100%;
+    margin-top: 70px;
+}
+.mystribox-right-img{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 100px;
+    margin-right: 50px;
+}
+/* mistrybox section end  */
